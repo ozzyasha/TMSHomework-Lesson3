@@ -54,6 +54,10 @@ class ViewController: UIViewController {
         
         // вызов функции #7
         
+        var counter = 0
+        counterClosure(&counter)
+        counterClosure(&counter)
+        
         // вызов функции #8
         
         // вызов функции #9
@@ -147,8 +151,14 @@ class ViewController: UIViewController {
     //    MARK: 6. Универсальные функции сложения, вычитания, умножения и деления через замыкание
     
     
-    
     //    MARK: 7. Замыкание внутри которой при вызове происходит увеличение счётчика на +1
+    
+    
+    let counterClosure = {(counter: inout Int) -> () in
+        counter += 1
+        print("Значение счётчика равно \(counter)")
+    }
+    
     
     //    MARK: 8. Замыкание в котором ты проверяешь полил ли ты цветок, если нет то напоминание полить цветок
     
