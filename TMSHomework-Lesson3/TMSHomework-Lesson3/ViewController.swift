@@ -79,6 +79,15 @@ class ViewController: UIViewController {
         
         print(divider)
         // MARK: вызов функции #9
+        
+        let someClosure: (String) -> (Void) = { _ in print("Вывод второго замыкания") }
+        print(firstClosure(someClosure))
+        
+        print(divider)
+        // MARK: вызов функции #9 - 2-ой вариант
+        
+        var messageCounter: Int = 1
+        showStringWithFirstMessage(numberOfMessage: &messageCounter)
     }
 
 }
