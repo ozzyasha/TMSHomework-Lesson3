@@ -74,6 +74,9 @@ class ViewController: UIViewController {
         print(divider)
         // MARK: вызов функции #8
         
+        print(checkFlowerWatering(true))
+        print(checkFlowerWatering(false))
+        
         print(divider)
         // MARK: вызов функции #9
     }
