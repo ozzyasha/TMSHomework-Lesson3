@@ -8,3 +8,19 @@
 import Foundation
 
 //    TODO: 6. Универсальные функции сложения, вычитания, умножения и деления через замыкание
+
+let addNumbers = { (a: Int, b: Int) -> Int in
+    return a + b
+}
+
+let subtractNumbers = { (a: Int, b: Int) -> Int in
+    return a - b
+}
+
+let divideNumbers = { (a: Int, b: Int) -> Int in
+    return a / b
+}
+
+let multiplyNumbers = { (a: Int, b: Int) -> Int in
+    return a * b
+}

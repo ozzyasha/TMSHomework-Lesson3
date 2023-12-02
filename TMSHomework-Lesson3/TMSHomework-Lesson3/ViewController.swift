@@ -42,21 +42,27 @@ class ViewController: UIViewController {
         // MARK: вызов функции #3
         
         var fourDigitsNumber = 4357
-        var sumOfDigits = findSumOfFourDigits(number: &fourDigitsNumber)
+        let sumOfDigits = findSumOfFourDigits(number: &fourDigitsNumber)
         print(sumOfDigits)
         
         print(divider)
         // MARK: вызов функции #4
         
-//        callRecursedFunction()
+//        let recursion = callRecursedFunction()
+//        print(recursion)
         
+        print(divider)
         // MARK: вызов функции #5
-        let numberInPowerOfThree = raiseInPower(number: 10)
-        print(numberInPowerOfThree)
+        let numberRaisedToThree = exponentiate(base: 4)
+        print(numberRaisedToThree)
         
         print(divider)
         // MARK: вызов функции #6
         
+        print(addNumbers(3, 5))
+        print(subtractNumbers(5, 3))
+        print(divideNumbers(10, 5))
+        print(multiplyNumbers(3, 8))
         
         print(divider)
         // MARK: вызов функции #7
