@@ -9,10 +9,11 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    let divider = "------------------------------------"
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // вызов функции #1
+        // MARK: вызов функции #1
         
         let sum = calculate(add: "add", 5, 3)
         let difference = calculate(subtract: "subtract", 5, 3)
@@ -25,7 +26,8 @@ class ViewController: UIViewController {
         print(multiplication)
         print(invalidMultiplication)
         
-        // вызов функции #2
+        print(divider)
+        // MARK: вызов функции #2
         
         let stringComparator1 = compareStrings(string1: "абв", string2: "ввш")
         let stringComparator2 = compareStrings(string1: "аааа", string2: "ааа")
@@ -36,133 +38,39 @@ class ViewController: UIViewController {
         print(stringComparator3)
         print(stringComparator4)
         
-        // вызов функции #3
+        print(divider)
+        // MARK: вызов функции #3
         
         var fourDigitsNumber = 4357
         var sumOfDigits = findSumOfFourDigits(number: &fourDigitsNumber)
         print(sumOfDigits)
         
-        // вызов функции #4
+        print(divider)
+        // MARK: вызов функции #4
         
-        recurse()
+//        callRecursedFunction()
         
-        // вызов функции #5
+        // MARK: вызов функции #5
         let numberInPowerOfThree = raiseInPower(number: 10)
         print(numberInPowerOfThree)
         
-        // вызов функции #6
+        print(divider)
+        // MARK: вызов функции #6
         
-        // вызов функции #7
+        
+        print(divider)
+        // MARK: вызов функции #7
         
         var counter = 0
-        counterClosure(&counter)
-        counterClosure(&counter)
+        increaseCounterClosure(&counter)
+        increaseCounterClosure(&counter)
         
-        // вызов функции #8
+        print(divider)
+        // MARK: вызов функции #8
         
-        // вызов функции #9
+        print(divider)
+        // MARK: вызов функции #9
     }
-    
-    //    MARK: 1. Универсальные функции сложения, вычитания, умножения и деления (перегрузка функций)
-    
-    func calculate(add action: String, _ a: Int, _ b: Int) -> String {
-        if action == "add" {
-            return "\(a) + \(b) = \(a + b)"
-        } else {
-            return "invalid operation"
-        }
-    }
-    
-    func calculate(subtract action: String, _ a: Int, _ b: Int) -> String {
-        if action == "subtract" {
-            return "\(a) - \(b) = \(a - b)"
-        } else {
-            return "invalid operation"
-        }
-    }
-    
-    func calculate(divide action: String, _ a: Int, _ b: Int) -> String {
-        if action == "divide" {
-            return "\(a) / \(b) = \(a / b)"
-        } else {
-            return "invalid operation"
-        }
-    }
-    
-    func calculate(multiply action: String, _ a: Int, _ b: Int) -> String {
-        if action == "multiply" {
-            return "\(a) * \(b) = \(a * b)"
-        } else {
-            return "invalid operation"
-        }
-    }
-    
-    
-    //    MARK: 2. Вычислить сумму цифр четырехзначного числа
-    
-    func findSumOfFourDigits(number: inout Int) -> Int {
-        var sum = 0
-        while number != 0 {
-            sum += number % 10
-            number /= 10
-        }
-        return sum
-    }
-    
-    
-    //    MARK: 3. Функция сравнения строк - "авб" больше "ввш"
-    
-    func compareStrings(string1: String, string2: String) -> String {
-        
-        var comparation: String = ""
-        
-        if string1 > string2 {
-            comparation = "\(string1) > \(string2)"
-        } else if string1 < string2 {
-            comparation = "\(string1) < \(string2)"
-        } else if string1 == string2 {
-            comparation = "\(string1) = \(string2)"
-        } else {
-            comparation = "cannot compare strings"
-        }
-        
-        return comparation
-    }
-    
-    //    MARK: 4. Циклический вызов функций - поломать приложение
-    
-    func recurse() {
-        recurse()
-    }
-    
-    
-    //    MARK: 5. Функция возведения в степень с дефолтным параметром
-    
-    func raiseInPower(number: Int, power: Int = 3) -> Int {
-        var multiplication = 1
-        
-        for _ in 1...power {
-            multiplication *= number
-        }
-        
-        return multiplication
-    }
-    
-    //    MARK: 6. Универсальные функции сложения, вычитания, умножения и деления через замыкание
-    
-    
-    //    MARK: 7. Замыкание внутри которой при вызове происходит увеличение счётчика на +1
-    
-    
-    let counterClosure = {(counter: inout Int) -> () in
-        counter += 1
-        print("Значение счётчика равно \(counter)")
-    }
-    
-    
-    //    MARK: 8. Замыкание в котором ты проверяешь полил ли ты цветок, если нет то напоминание полить цветок
-    
-    //    MARK: 9. Выполнить любое замыкание внутри замыкания по очереди/ замыкание внутри любой функции
-    
+
 }
 

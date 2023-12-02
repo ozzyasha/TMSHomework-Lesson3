@@ -13,6 +13,15 @@
 		7AA38EF92B18A53100C16692 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA38EF72B18A53100C16692 /* Main.storyboard */; };
 		7AA38EFB2B18A53600C16692 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AA38EFA2B18A53600C16692 /* Assets.xcassets */; };
 		7AA38EFE2B18A53600C16692 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA38EFC2B18A53600C16692 /* LaunchScreen.storyboard */; };
+		7AA38F542B1B41F400C16692 /* Task1 - calculateOverload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA38F532B1B41F400C16692 /* Task1 - calculateOverload.swift */; };
+		7AA38F562B1B422900C16692 /* Task2 - findSumOfFourDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA38F552B1B422900C16692 /* Task2 - findSumOfFourDigits.swift */; };
+		7AA38F582B1B42BD00C16692 /* Task3 - compareStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA38F572B1B42BD00C16692 /* Task3 - compareStrings.swift */; };
+		7AA38F5A2B1B437400C16692 /* Task4 - callRecursedFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA38F592B1B437400C16692 /* Task4 - callRecursedFunction.swift */; };
+		7AA38F5C2B1B43AA00C16692 /* Task5 - raiseInPower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA38F5B2B1B43AA00C16692 /* Task5 - raiseInPower.swift */; };
+		7AA38F5E2B1B440A00C16692 /* Task6 - calculateClosures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA38F5D2B1B440A00C16692 /* Task6 - calculateClosures.swift */; };
+		7AA38F602B1B44AC00C16692 /* Task7 - increaseCounterClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA38F5F2B1B44AC00C16692 /* Task7 - increaseCounterClosure.swift */; };
+		7AA38F622B1B44E700C16692 /* Task8 - checkFlowerWatering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA38F612B1B44E700C16692 /* Task8 - checkFlowerWatering.swift */; };
+		7AA38F642B1B453300C16692 /* Task9 - runClosureInsideClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA38F632B1B453300C16692 /* Task9 - runClosureInsideClosure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		7AA38EFA2B18A53600C16692 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AA38EFD2B18A53600C16692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7AA38EFF2B18A53600C16692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AA38F532B1B41F400C16692 /* Task1 - calculateOverload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task1 - calculateOverload.swift"; sourceTree = "<group>"; };
+		7AA38F552B1B422900C16692 /* Task2 - findSumOfFourDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task2 - findSumOfFourDigits.swift"; sourceTree = "<group>"; };
+		7AA38F572B1B42BD00C16692 /* Task3 - compareStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task3 - compareStrings.swift"; sourceTree = "<group>"; };
+		7AA38F592B1B437400C16692 /* Task4 - callRecursedFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task4 - callRecursedFunction.swift"; sourceTree = "<group>"; };
+		7AA38F5B2B1B43AA00C16692 /* Task5 - raiseInPower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task5 - raiseInPower.swift"; sourceTree = "<group>"; };
+		7AA38F5D2B1B440A00C16692 /* Task6 - calculateClosures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task6 - calculateClosures.swift"; sourceTree = "<group>"; };
+		7AA38F5F2B1B44AC00C16692 /* Task7 - increaseCounterClosure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task7 - increaseCounterClosure.swift"; sourceTree = "<group>"; };
+		7AA38F612B1B44E700C16692 /* Task8 - checkFlowerWatering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task8 - checkFlowerWatering.swift"; sourceTree = "<group>"; };
+		7AA38F632B1B453300C16692 /* Task9 - runClosureInsideClosure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task9 - runClosureInsideClosure.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +77,15 @@
 				7AA38EF12B18A53100C16692 /* AppDelegate.swift */,
 				7AA38EF32B18A53100C16692 /* SceneDelegate.swift */,
 				7AA38EF52B18A53100C16692 /* ViewController.swift */,
+				7AA38F532B1B41F400C16692 /* Task1 - calculateOverload.swift */,
+				7AA38F552B1B422900C16692 /* Task2 - findSumOfFourDigits.swift */,
+				7AA38F572B1B42BD00C16692 /* Task3 - compareStrings.swift */,
+				7AA38F592B1B437400C16692 /* Task4 - callRecursedFunction.swift */,
+				7AA38F5B2B1B43AA00C16692 /* Task5 - raiseInPower.swift */,
+				7AA38F5D2B1B440A00C16692 /* Task6 - calculateClosures.swift */,
+				7AA38F5F2B1B44AC00C16692 /* Task7 - increaseCounterClosure.swift */,
+				7AA38F612B1B44E700C16692 /* Task8 - checkFlowerWatering.swift */,
+				7AA38F632B1B453300C16692 /* Task9 - runClosureInsideClosure.swift */,
 				7AA38EF72B18A53100C16692 /* Main.storyboard */,
 				7AA38EFA2B18A53600C16692 /* Assets.xcassets */,
 				7AA38EFC2B18A53600C16692 /* LaunchScreen.storyboard */,
@@ -138,9 +165,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AA38F562B1B422900C16692 /* Task2 - findSumOfFourDigits.swift in Sources */,
 				7AA38EF62B18A53100C16692 /* ViewController.swift in Sources */,
+				7AA38F5C2B1B43AA00C16692 /* Task5 - raiseInPower.swift in Sources */,
+				7AA38F5A2B1B437400C16692 /* Task4 - callRecursedFunction.swift in Sources */,
+				7AA38F542B1B41F400C16692 /* Task1 - calculateOverload.swift in Sources */,
 				7AA38EF22B18A53100C16692 /* AppDelegate.swift in Sources */,
+				7AA38F5E2B1B440A00C16692 /* Task6 - calculateClosures.swift in Sources */,
 				7AA38EF42B18A53100C16692 /* SceneDelegate.swift in Sources */,
+				7AA38F642B1B453300C16692 /* Task9 - runClosureInsideClosure.swift in Sources */,
+				7AA38F582B1B42BD00C16692 /* Task3 - compareStrings.swift in Sources */,
+				7AA38F602B1B44AC00C16692 /* Task7 - increaseCounterClosure.swift in Sources */,
+				7AA38F622B1B44E700C16692 /* Task8 - checkFlowerWatering.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
