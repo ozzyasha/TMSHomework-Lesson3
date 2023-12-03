@@ -9,12 +9,16 @@ import Foundation
 
 //    TODO: 4. Циклический вызов функций - поломать приложение
 
-func recurseFirst() -> () {
-    func recurseSecond () -> () {
-        return recurseFirst()
-    }
-    return recurseSecond()
+// переделываю эту функцию, т.к. возникает просто бесконечный её вызов и нет runtime error, но как вариант оставлю
+//
+//func recurseFirst() -> () {
+//    func recurseSecond () -> () {
+//        return recurseFirst()
+//    }
+//    return recurseSecond()
+//}
+
+func callRuntimeBreakFunction(number: Int = 5, zero: Int = 0) -> Int {
+    return number / zero
 }
-
-
         
