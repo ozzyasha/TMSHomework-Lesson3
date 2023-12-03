@@ -48,7 +48,9 @@ class ViewController: UIViewController {
         print(divider)
         // MARK: вызов функции #4
         
-        recurseFirst()
+//        recurseFirst()
+        
+        print(callRuntimeBreakFunction())
         
         print(divider)
         // MARK: вызов функции #5
