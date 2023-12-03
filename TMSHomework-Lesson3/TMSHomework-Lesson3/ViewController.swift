@@ -48,8 +48,7 @@ class ViewController: UIViewController {
         print(divider)
         // MARK: вызов функции #4
         
-//        let recursion = callRecursedFunction()
-//        print(recursion)
+        recurseFirst()
         
         print(divider)
         // MARK: вызов функции #5
