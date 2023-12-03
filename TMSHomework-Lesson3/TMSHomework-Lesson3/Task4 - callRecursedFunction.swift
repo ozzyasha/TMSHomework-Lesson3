@@ -9,14 +9,12 @@ import Foundation
 
 //    TODO: 4. Циклический вызов функций - поломать приложение
 
-//var recurseSecond: () -> () = { }
-//
-//func callRecursedFunction(_ a: Int = 1) -> (() -> ()) {
-//    while a > 0 {
-//        return recurseSecond
-//    }
-//    return recurseSecond
-//}
+func recurseFirst() -> () {
+    func recurseSecond () -> () {
+        return recurseFirst()
+    }
+    return recurseSecond()
+}
 
 
         
